@@ -1,0 +1,23 @@
+{
+  "name": "asclepius",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server/server.js",
+    "start:dev": "nodemon ./src/server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.10.0",
+    "@hapi/hapi": "^21.3.12",
+    "@tensorflow/tfjs-node": "^3.21.1",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
